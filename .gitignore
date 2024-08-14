@@ -23,14 +23,14 @@ npm-debug.log*
 # Ignore yarn.lock file
 yarn.lock
 
-## Ignore dist folder for production builds
-#/dist/
+# Ignore dist folder for production builds
+/dist/
 
 # Ignore any backup files
 *~
 
 # Ignore any personal or sensitive files
-config.json
+#config.json
 package-lock.json
 # Ignore any temporary files
 .tmp/
