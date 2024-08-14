@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body {
+    font: inherit;
+    line-height: 1.2;
+    width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
