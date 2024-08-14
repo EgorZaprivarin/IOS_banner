@@ -1,4 +1,3 @@
-import './reset.css';
 import './styles.css';
 
 import {languages} from './languages';
