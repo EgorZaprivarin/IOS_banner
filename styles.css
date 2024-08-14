@@ -1,0 +1,386 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body {
+    font: inherit;
+    line-height: 1.2;
+    width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+html {
+    min-width: 375px;
+    height: 100vh;
+    font-size: 1.49vh;
+}
+
+body {
+    color: #FFF;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100%;
+    padding: 0 24px 0;
+    background-image: url(images/4ff474d176cba01bdce6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 5.2vh;
+    margin-bottom: 40px;
+}
+
+.header__close_btn {
+    position: absolute;
+    top: 35px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+}
+
+.close_btn__line,
+.close_btn__line::after {
+    display: block;
+    background-color: rgba(255, 255, 255, 40%);
+    width: 100%;
+    height: 2px;
+}
+
+.close_btn__line {
+    transform: rotate(-45deg);
+}
+
+.close_btn__line::after {
+    content: '';
+    transform: rotate(90deg);
+}
+
+.header__title {
+    width: 27.37rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4.17rem;
+    font-weight: bold;
+}
+
+.main {
+    margin-bottom: 54px;
+}
+
+.main__advantages {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -3.5px 6vh;
+}
+
+.advantages__card {
+    display: flex;
+    align-items: flex-end;
+    height: 138.6px;
+    width: 104.4px;
+    margin: 0 3.5px;
+    padding: 11px 8px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.advantages__card:nth-child(1) {
+    background-image: url(images/cb927bc597e12dcdb85a.png);
+}
+
+.advantages__card:nth-child(2) {
+    background-image: url(images/dd7de95870218b2b5337.png);
+}
+
+.advantages__card:nth-child(3) {
+    background-image: url(images/3faa7adc73cb519a8963.png);
+}
+
+.offers__card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 11px 24px;
+    width: 100%;
+    height: 56px;
+    margin-bottom: 8px;
+    border-radius: 32px;
+    font-size: 1.61rem;
+    background-color: rgba(255, 255, 255, 10.16%);
+}
+
+.offers__card.selected {
+    background-color: rgba(255, 255, 255, 30.24%);
+    border: 1px solid #fff;
+}
+
+.card__description,
+.card__left_side {
+    flex: 0 1 64%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card__price_per_year {
+    font-weight: normal;
+    text-transform: none;
+    color: rgba(255, 255, 255, 70%);
+}
+
+.card__price {
+    color: rgba(255, 255, 255, 70%);
+}
+
+.card__hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -11px;
+    right: 24px;
+    width: 119px;
+    height: 20px;
+    color: #141131;
+    font-size: 1.31rem;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main__btn {
+    width: 100%;
+    height: 56px;
+    border: none;
+    border-radius: 32px;
+    color: #070B33;
+    font-size: 2.01rem;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0 24px;
+}
+
+.footer__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 262px;
+    height: 15px;
+    margin: 0 auto 1.7vh;
+}
+
+.navigation__link a {
+    color: rgba(255, 255, 255, 50%);
+    font-size: 1.26rem;
+}
+
+[lang='de'] {
+    .card__hint {
+        font-size: 1.15rem;
+    }
+
+    .footer__navigation {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navigation__link a {
+        font-size: 1.15rem;
+    }
+}
+
+[lang='es'] {
+    .footer__navigation {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .navigation__link a {
+        font-size: 1.15rem;
+    }
+}
+
+[lang='fr'] {
+    .offers__card {
+        font-size: 1.55rem;
+        gap: 10px;
+    }
+
+    .card__price_per_year {
+        font-size: 1.45rem;
+    }
+
+    .card__hint {
+        font-size: 1.12rem;
+    }
+
+    .footer__navigation {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navigation__link a {
+        font-size: 1.15rem;
+    }
+}
+
+[lang='ja'],
+[lang='pt']{
+    .footer__navigation {
+        width: 80%;
+        gap: 5px;
+    }
+
+    .navigation__link a {
+        font-size: 1.2rem;
+    }
+}
+
+[lang='pt'] {
+    .card__hint {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 375px) and (min-height: 812px) {
+    html {
+        font-size: 1.193vh;
+    }
+
+    body {
+        line-height: 1.2;
+    }
+
+    .container {
+        background-image: url(images/ceddb3afd32634932fe0.jpg);
+    }
+
+    .header {
+        margin-top: 8.4vh;
+    }
+
+    .header__close_btn {
+        top: 71px;
+        left: 23px;
+    }
+
+    .header__title {
+        font-size: 3.96rem;
+        letter-spacing: 0.06rem;
+        line-height: 4.7rem;
+    }
+
+    .main {
+        margin-bottom: 90px;
+    }
+
+    .advantages__card:nth-child(1) {
+        background-image: url(images/13e45e0ad5ec5c460007.png);
+    }
+
+    .advantages__card:nth-child(2) {
+        background-image: url(images/6e551cb43ef9decbf6e3.png);
+    }
+
+    .advantages__card:nth-child(3) {
+        background-image: url(images/5db977056e4b434f7d3b.png);
+    }
+
+    .card__left_side {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .card__description,
+    .card__left_side {
+        flex: 0 1 65.5%;
+    }
+
+    .main__btn {
+        margin-top: 1vh;
+    }
+
+    .footer__navigation {
+        margin: 0 auto 3.67vh;
+    }
+
+    .navigation__link {
+        letter-spacing: 0.05rem;
+    }
+
+    [lang='de'] {
+        .navigation__link a {
+            font-size: 1.05rem;
+        }
+    }
+
+    [lang='es'] {
+        .card__hint {
+            font-size: 1.25rem;
+        }
+
+        .footer__navigation {
+            width: 90%;
+            gap: 5px;
+        }
+
+        .navigation__link a {
+            font-size: 1.15rem;
+        }
+    }
+
+    [lang='fr'] {
+        .navigation__link a {
+            font-size: 1.05rem;
+        }
+    }
+
+    [lang='pt']{
+        .card__hint {
+            font-size: 1.18rem;
+        }
+
+        .footer__navigation {
+            width: 90%;
+            gap: 5px;
+        }
+
+        .navigation__link a {
+            font-size: 1.2rem;
+        }
+    }
+}
