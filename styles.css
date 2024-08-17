@@ -219,7 +219,7 @@ body {
     }
 
     .navigation__link a {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 }
 
@@ -229,7 +229,7 @@ body {
     }
 
     .card__hint {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .navigation__link a {
@@ -238,6 +238,10 @@ body {
 }
 
 [lang='es'] {
+    .card__hint {
+        font-size: 1.2rem;
+    }
+
     .offers__card {
         font-size: 1.55rem;
     }
@@ -245,7 +249,7 @@ body {
 
 [lang='fr'] {
     .offers__card {
-        font-size: 1.55rem;
+        font-size: 1.5rem;
         gap: 10px;
     }
 
@@ -254,7 +258,7 @@ body {
     }
 
     .card__hint {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -271,7 +275,7 @@ body {
     }
 
     .card__hint {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -365,10 +369,6 @@ body {
     }
 
     [lang='pt']{
-        .card__hint {
-            font-size: 1.1rem;
-        }
-
         .navigation__link a {
             font-size: 1rem;
         }
