@@ -204,43 +204,49 @@ body {
     font-size: 1.26rem;
 }
 
+[lang='de'],
+[lang='es'],
+[lang='fr'],
+[lang='ja'],
+[lang='pt'] {
+    .footer__navigation {
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navigation__link a {
+        font-size: 0.95rem;
+    }
+}
+
 [lang='de'] {
     .offers__card {
         font-size: 1.5rem;
     }
 
     .card__hint {
-        font-size: 1.15rem;
-    }
-
-    .footer__navigation {
-        width: 100%;
-        gap: 10px;
+        font-size: 0.9rem;
     }
 
     .navigation__link a {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 }
 
 [lang='es'] {
+    .card__hint {
+        font-size: 1.2rem;
+    }
+
     .offers__card {
         font-size: 1.55rem;
-    }
-
-    .footer__navigation {
-        width: 80%;
-        gap: 10px;
-    }
-
-    .navigation__link a {
-        font-size: 1rem;
     }
 }
 
 [lang='fr'] {
     .offers__card {
-        font-size: 1.55rem;
+        font-size: 1.5rem;
         gap: 10px;
     }
 
@@ -249,26 +255,12 @@ body {
     }
 
     .card__hint {
-        font-size: 1.12rem;
-    }
-
-    .footer__navigation {
-        width: 100%;
-        gap: 10px;
-    }
-
-    .navigation__link a {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
 [lang='ja'],
 [lang='pt']{
-    .footer__navigation {
-        width: 80%;
-        gap: 5px;
-    }
-
     .navigation__link a {
         font-size: 1.2rem;
     }
@@ -280,12 +272,7 @@ body {
     }
 
     .card__hint {
-        font-size: 1.2rem;
-    }
-
-    .footer__navigation {
-        width: 90%;
-        gap: 5px;
+        font-size: 1.1rem;
     }
 }
 
@@ -358,43 +345,29 @@ body {
 
     [lang='de'] {
         .navigation__link a {
-            font-size: 1.05rem;
+            font-size: 0.95rem;
         }
     }
 
     [lang='es'] {
         .card__hint {
-            font-size: 1.25rem;
-        }
-
-        .footer__navigation {
-            width: 90%;
-            gap: 5px;
+            font-size: 1.2rem;
         }
 
         .navigation__link a {
-            font-size: 1.05rem;
+            font-size: 1rem;
         }
     }
 
     [lang='fr'] {
         .navigation__link a {
-            font-size: 1.05rem;
+            font-size: 0.95rem;
         }
     }
 
     [lang='pt']{
-        .card__hint {
-            font-size: 1.18rem;
-        }
-
-        .footer__navigation {
-            width: 90%;
-            gap: 5px;
-        }
-
         .navigation__link a {
-            font-size: 1.05rem;
+            font-size: 1rem;
         }
     }
 }
